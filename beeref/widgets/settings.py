@@ -155,6 +155,8 @@ class ImageStorageFormatWidget(RadioGroup):
         ('best', 'Best Guess',
          ('Small images and images with alpha channel are stored as png,'
           ' everything else as jpg')),
+        ('webp', 'Always WebP',
+         'Small bee file. Lossy, but less so than JPG, and with transparency support'),
         ('png', 'Always PNG', 'Lossless, but large bee file'),
         ('jpg', 'Always JPG',
          'Small bee file, but lossy and no transparency support'))

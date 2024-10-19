@@ -119,7 +119,7 @@ class BeeSettings(QtCore.QSettings):
         },
         'Items/image_storage_format': {
             'default': 'best',
-            'validate': lambda x: x in ('png', 'jpg', 'best'),
+            'validate': lambda x: x in ('png', 'jpg', 'webp', 'best'),
         },
         'Items/arrange_gap': {
             'default': 0,
